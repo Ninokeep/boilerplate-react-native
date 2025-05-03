@@ -1,10 +1,5 @@
-import {Image, StyleSheet, Platform, Animated, Text, SafeAreaView} from 'react-native';
+import {Image, StyleSheet, Platform, Animated, Text, SafeAreaView, ScrollView} from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-import ScrollView = Animated.ScrollView;
 
 export default function HomeScreen() {
   return (
